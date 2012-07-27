@@ -1,2 +1,4 @@
 .settings/
 cache*.yml
+.DS_Store
+.project
