@@ -10,11 +10,4 @@ bundle do |bundle|
 		m.separator
 		m.command 'Update CI template'
 	end
-	
-	project_template "CodeIgniter Template" do |t|
-		t.type = :web
-		t.location = "templates/ci.zip"
-		t.description = "CodeIgniter template"
-		t.replace_parameters = false
-	end
 end
