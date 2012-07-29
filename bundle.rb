@@ -9,6 +9,16 @@ bundle do |bundle|
 		m.command 'CI Controller boilerplate'
 		m.command 'CI Model boilerplate'
 		m.separator
+		m.command 'Load config'
+		m.command 'Load database'
+		m.command 'Load file'
+		m.command 'Load helper'
+		m.command 'Load language'
+		m.command 'Load library'
+		m.command 'Load model'
+		m.command 'Load vars'
+		m.command 'Load view'
+		m.separator
 		m.command 'Update CI template'
 	end
 end
