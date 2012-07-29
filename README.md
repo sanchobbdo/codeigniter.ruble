@@ -16,8 +16,9 @@ Issues we should address:
 
 ## Current features
 
-- CI_Model and CI_Controller snippets (`ci_model`, `ci_controller`)
-- Code Igniter template for **Web projects**
+- CI_Model, CI_Controller and file snippets (`ci_model`, `ci_controller`, `ci_file`)
+- *load* snippets: `+helper` => $this->load->helper('');
+- Code Igniter template for **PHP projects**
 - Command to update the CI template
 
 ## History
